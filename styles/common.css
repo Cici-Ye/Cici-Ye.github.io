@@ -1,0 +1,65 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    line-height: 1.6;
+    margin: 0px;
+    padding: 0px;
+    background-color: #dad7cd;
+  }
+
+  @font-face {
+    font-family: "Whispering Signature";
+    src: url("../fonts/WhisperingSignature.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  h1 {
+    font-family:"Whispering Signature";
+    font-size: 50px;
+    color: #3a5a40;
+    margin: 0;
+    text-align: center;
+  }
+  nav {
+    display:flex;
+    background-color: #3a5a40;
+  }
+  nav ul{
+    display:flex;
+    flex:1;
+    justify-content:space-around;
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:10px;
+    list-style-type: none;
+  }
+  nav a {
+    text-decoration: none;
+    color:#dad7cd;
+  }
+  nav a:hover {
+    background-color: #79af78;
+    text-decoration: none;
+    padding:0px;
+  }
+  .logo img{
+    height:50px;
+    width:60px;
+  }
+  h2{
+    color: #3a5a40;
+    font-size: 40px;
+    margin:0px;
+}
+  p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 25px;
+    margin: 10px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #3a5a40;
+    color: #dad7cd;
+    margin-top: 40px;
+  }

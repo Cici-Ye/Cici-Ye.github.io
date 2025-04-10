@@ -1,0 +1,62 @@
+.content {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:40px;
+    margin: 10px 5%;
+    padding: 20px;
+    flex-wrap:wrap;
+}
+a {
+    color: #3a5a40;
+    text-decoration: none;
+}
+#hello {
+    font-size: 100px;
+    color: #3a5a40;
+    margin: 0px;
+    border-bottom:1.6em;
+  }
+#babson{
+    color: #3a5a40;
+}
+#selfie {
+    display:flex;
+    width:80%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+#game {
+    font-style: italic;
+  }
+.interest{
+    gap:40px;
+    margin: 10px 5%;
+    padding: 20px;
+}
+.line{
+    width:100%;
+    border-bottom: 10px solid #3a5a40;
+    margin:0px;
+    padding:0px;
+  }
+.interest ol{
+    font-size: 30px;
+    line-height: 1.6;
+}
+.contact{
+    gap:40px;
+    margin: 10px 5%;
+    padding: 20px;
+}
+.contact ul{
+    font-size:30px;
+}
+a:hover {
+    background-color: #3a5a40;
+    color:#dad7cd;
+}
+ul li{
+    list-style: none;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles/common.css" >
+    <link rel="stylesheet" href="styles/contact.css" >
+  </head>
+  <body>
+    <header>
+      <h1>This is Me!</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li class="logo"><img src="logo.svg" alt="logo" ></li>
+        <li><a href="index.html" class="bar">Home</a></li>
+        <li><a href="projects.html" class="bar">Projects</a></li>
+        <li><a href="contact.html" class="bar">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="intro">
+        <p>
+          If have any questions or feel like to know more about me, feel free to
+          reach out using the form below. I'm really happy to talk with anyone
+          about my projects, my interests, or answer questions! Can't wait to
+          hear from you!
+        </p>
+      </div>
+
+      <form method="post" action="https://oim.108122.xyz/form2">
+        <fieldset>
+          <legend>Personal Info</legend>
+          <label>Last Name:</label>
+          <input
+            type="text"
+            name="lastname"
+            maxlength="100"
+            placeholder="Last name"
+            required
+          >
+          <div>
+          <label>First Name:</label>
+          <input
+            type="text"
+            name="firstname"
+            maxlength="100"
+            placeholder="First name"
+            required
+          ></div>
+          <label>Email:</label>
+          <input
+            type="text"
+            name="email"
+            maxlength="100"
+            placeholder="Email address"
+            required
+          >
+          <div>
+          <label>Gender:</label>
+          <label
+            >Male
+            <input type="radio" name="gender" value="male" >
+          </label>
+          <label
+            >Female
+            <input type="radio" name="gender" value="female" >
+          </label>
+          </div>
+          <label for="country-select">Where is your home country?</label>
+          <select name="country" id="country-select">
+            <option value="United States">United States</option>
+            <option value="China">China</option>
+            <option value="Italy">Italy</option>
+            <option value="Mexico">Mexico</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+          <legend>Message</legend>
+          <div>
+            <div><label for="comments">Leave a question or message here:</label></div>
+            <div>
+              <textarea
+                name="comments"
+                id="comments"
+                rows="10"
+                cols="30"
+                placeholder="Enter your comment here ..."
+                required
+              ></textarea>
+            </div>
+          </div>
+        </fieldset>
+        <div>
+          <button type="submit">
+            <img src="images/mailbox.png" alt="submit button" height="30" >
+          </button>
+          <button type="reset">
+            <img src="images/reset.png" alt="reset button" height="30" >
+          </button>
+        </div>
+      </form>
+    </main>
+
+    <footer>
+      <p>&copy; Cici Ye - All rights reserved</p>
+    </footer>
+  </body>
+</html>
